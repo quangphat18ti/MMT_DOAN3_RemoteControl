@@ -1,0 +1,17 @@
+BoostFull
+ClientApplication
+FOLDER
+FOLDERTASK
+KEYDOWN
+LIST_APP
+LIST_PROCESS
+MULTI_CLIENT
+output
+SCREEN_SHOT
+SERVER
+ServerApplication
+SOCKET_V1
+TEST_KEYPROCESS
+wstring
+server.exe
+client.exe
