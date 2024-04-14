@@ -1,25 +1,22 @@
-# Các thư viện sử dụng trong code:
+## Các thư viện sử dụng trong code:
 
-## Winsock2:
+### Winsock2:
 
 - Command Line: `-lws2_32`
 - VS: `ws2_32.lib`
 
-## -lpsapi:
+### -lpsapi:
 
 - Comand Line: `-lpsapi`
 
-# Câu lệnh chạy file server: make
+## Lệnh chạy
+- Câu lệnh chạy file server: make
+- Câu lệnh chạy file client: make c
 
-# Câu lệnh chạy file client: make c
-
-# Các API sử dụng:
-
-## Format Request: Xâu gồm những cụm cách nhau bởi khoảng trắng.
-
-## Format Response: 2 giá trị:
-
-- Giá trị đầu là Status Code: 0 là thất bại. (> 0) là thành công.
+## Các API sử dụng:
+> Format Request: Xâu gồm những cụm cách nhau bởi khoảng trắng.
+### Format Response: 2 giá trị:
+- Giá trị đầu là `Status Code`: 0 là thất bại. (> 0) là thành công.
 - Nếu là thất bại thì giá trị thứ 2 là thông báo.
 - Nếu thành công thì có thể là string thông báo hoặc là Data.
 
